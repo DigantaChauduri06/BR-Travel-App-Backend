@@ -1,3 +1,3 @@
 # BR-Travel-App-Backend
 
-It is hosted on  AWS EC2 Instance. Link is http://52.194.211.162/
+It is hosted on Deta. Link is https://3ce1m9.deta.dev
