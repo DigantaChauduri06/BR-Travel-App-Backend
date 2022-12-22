@@ -1,9 +1,9 @@
 {
   "name": "server",
-  "id": "7c268a0e-fd45-4136-9dae-817a504fc4f1",
+  "id": "b6e72a92-07fa-4ce9-8480-3981240c1b14",
   "project": "d02304x4",
   "runtime": "python3.9",
-  "endpoint": "https://3ce1m9.deta.dev",
+  "endpoint": "https://ikhr8l.deta.dev",
   "region": "ap-south-1",
   "visor": "disabled",
   "http_auth": "disabled"
