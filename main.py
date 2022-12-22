@@ -50,3 +50,6 @@ def get_images(place_name):
 
 
 handler = Mangum(app)
+
+
+
