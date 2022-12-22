@@ -3,6 +3,7 @@ from typing import Union
 from fastapi import FastAPI
 from bs4 import BeautifulSoup
 import requests;
+from fastapi.middleware.cors import CORSMiddleware
 
 import json
 import wikipedia
@@ -11,12 +12,21 @@ from mangum import Mangum
 
 # Initilize
 
+origins = ["*"]
+
 
 stage = os.environ.get('STAGE', None)
 openapi_prefix = f"/{stage}" if stage else "/"
 
 app = FastAPI(title="BR Tours And Travels", openapi_prefix=openapi_prefix)
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/")
