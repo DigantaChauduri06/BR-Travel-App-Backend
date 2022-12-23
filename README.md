@@ -1,3 +1,3 @@
 # BR-Travel-App-Backend
 
-It is hosted on Deta. Link is https://ikhr8l.deta.dev
+It is hosted on Deta. Link is https://br-travel-app-backend-production.up.railway.app
